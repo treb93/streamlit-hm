@@ -1,10 +1,9 @@
 import streamlit as st
-from scipy.stats import pearsonr
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.tree import DecisionTreeClassifier
 from dtreeviz.trees import dtreeviz
 from sklearn.base import TransformerMixin
 import streamlit.components.v1 as components

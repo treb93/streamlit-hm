@@ -1,5 +1,4 @@
 import streamlit as st
-from scipy.stats import pearsonr
 import pandas as pd
 import numpy as np
 import seaborn as sns
