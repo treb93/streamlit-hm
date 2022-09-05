@@ -13,8 +13,6 @@ app = MultiApp()
 app.add_app("Home", home.app)
 app.add_app("Data Analysis", EDA.app)
 app.add_app("Gradient Boosting", GradientBoosting.app)
-app.add_app("ALS", ALS.app)
-app.add_app("RNN", RNN.app)
 app.add_app("Graph Neural Network", GNN.app)
 
 

@@ -13,6 +13,8 @@ def app():
     as well as from customer and product meta data. The available meta data spans from simple data, such as garment type and customer age, 
     to text data from product descriptions, to image data from garment images.
     
+    
+    [See the challenge page here](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview)
     """)
 
     st.subheader('Purpose')
@@ -23,7 +25,7 @@ def app():
     The metric used and imposed by H&M to rank competitors is MAP@12 ( Mean Average Precision).
     """)
 
-    with st.expander("Principle AP@30"):
+    with st.expander("Principle AP@5"):
         st.image('.//data//figures_RNN//illu_MAP12.PNG',width=600)
 
 
