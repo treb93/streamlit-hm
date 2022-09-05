@@ -1,6 +1,6 @@
 import streamlit as st
 from multiApp import MultiApp
-from Apps import home, ALS, GNN, RNN, EDA, GradientBoosting
+from Apps import home, GNN, EDA, GradientBoosting
 from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(layout="wide")
