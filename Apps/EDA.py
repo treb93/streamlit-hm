@@ -186,7 +186,7 @@ def article_cumulative_sales(last_week_sales: pd.DataFrame()) -> plt.figure:
     
 #@st.cache(suppress_st_warning=True)   
 def customer_clustering():
-    score_curve = pd.read_pickle('../streamlit/resources/customer_clustering.pkl')
+    score_curve = pd.read_pickle('resources/customer_clustering.pkl')
     
     f = plt.figure(figsize=(8, 4))
     plt.plot(range(1, 15), score_curve, "bo-")
